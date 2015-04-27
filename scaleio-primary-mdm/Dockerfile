@@ -1,5 +1,5 @@
 FROM centos:centos6
-RUN yum -y install tar wget numactl libaio mutt python python-paramiko java-1.6.0-openjdk vi which epel
+RUN yum -y install tar wget numactl libaio mutt python python-paramiko java-1.6.0-openjdk vi which epel-release
 #RUN wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 #RUN wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 #RUN yum -y install http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
